@@ -1,0 +1,5 @@
+create table pesticides(pestName varchar(100),sellarName varchar(100),  packingSize varchar(20), availableQuantity INT, contact varchar(20), price FLOAT , distanceFromYou varchar(5), address varchar(200),
+primary key(pestName, packingSize, sellarName))
+
+
+
